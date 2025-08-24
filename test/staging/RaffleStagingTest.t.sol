@@ -114,5 +114,4 @@ contract RaffleIntegrationTest is Test, CodeConstants {
         assert(winnerBalance == startingBalance + prize);
         assert(endingTimeStamp > startingTimeStamp);
     }
-
 }

@@ -9,7 +9,7 @@ import {Vm} from "forge-std/Vm.sol";
 import {VRFCoordinatorV2_5Mock} from "@chainlink/contracts/src/v0.8/vrf/mocks/VRFCoordinatorV2_5Mock.sol";
 import {LinkToken} from "../../test/mocks/LinkToken.sol";
 
-contract RaffleUnitTest is Test, CodeConstants  {
+contract RaffleUnitTest is Test, CodeConstants {
     Raffle public raffle;
     HelperConfig public helperConfig;
 
